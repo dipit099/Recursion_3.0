@@ -1,0 +1,7 @@
+Lets use fputs here
+Lets use fputs here
+Lets use fputs here
+Lets use fputs here
+Storing the age and result of a student 25 4.500000
+Lets use fputs here
+Storing the age and result of a student 25 4.500000

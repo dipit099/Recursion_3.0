@@ -6,6 +6,8 @@ int main()
     int andNumber = num & result;
     int orNumber = num | result;
 
+    int xorNumber = num ^ result;
+
     printf("Original num=%d\n", num);
     printf("Final num=%d\n", result);
 
@@ -34,5 +36,12 @@ int main()
     for (int i = sizeof(orNumber) * 8 - 1; i >= 0; i--)
     {
         printf("%d", (orNumber >> i) & 1);
+    }
+  printf("\n");
+
+     printf("XOrNumber=   ");
+    for (int i = sizeof(xorNumber) * 8 - 1; i >= 0; i--)
+    {
+        printf("%d", (xorNumber >> i) & 1);
     }
 }
